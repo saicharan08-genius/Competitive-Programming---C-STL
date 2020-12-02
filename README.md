@@ -15,4 +15,6 @@ C++ STL Programming Conisist of:
                                4.Iterators
                                
 # C++ Algorithms:
+
+Sorting:
  
