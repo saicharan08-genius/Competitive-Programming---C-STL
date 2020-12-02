@@ -7,4 +7,12 @@ C++ STL Programming prerequisites:
                                1.Basic Programming in C++(structures, loops, conditions, data types)
                                2.Class Templates and Generic Programming in C++
                                
-C++ STL 
+C++ STL Programming Conisist of:
+  
+                               1.Algorithms
+                               2.Containers
+                               3.Functions
+                               4.Iterators
+                               
+# C++ Algorithms:
+ 
