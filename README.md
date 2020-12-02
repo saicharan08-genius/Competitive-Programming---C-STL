@@ -1,4 +1,4 @@
-# Competitive Programming - C STL 
+# Competitive Programming - C++ STL 
 
 Disclaimer: This is Competitive programming contest related and not software development related
 
