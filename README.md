@@ -9,12 +9,12 @@ C++ STL Programming prerequisites:
                                
 C++ STL Programming Conisist of:
   
-                               1.Algorithms
-                               2.Containers
+                               1.Containers
+                               2.Algorithms
                                3.Functions
                                4.Iterators
                                
-# C++ Algorithms:
+# C++ Containers:
 
-Sorting:
+C++ Vector Library:
  
