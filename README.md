@@ -44,8 +44,12 @@ What does Sort function in C++ do? You will understand it in the C++ code below:
  
                                           cout << "\n\nThe array after sorting is :\n";
    
-                                          show(array, ArraySize);  // print the array after sorting
- 
+                                          show(array, ArraySize); // print the array after sorting
+                                                                  //outputs 0 1 2 3 4 5 6 7 8 9 
                                           return 0;
                                           }
+ 
+                                          //So, now, we know sort function sorts the elements of the array in a ascending or descending order
+C++ Binary Search:
+
  
