@@ -25,32 +25,27 @@ What does Sort function in C++ do? You will understand it in the C++ code below:
  
                                           using namespace std;
  
-                                          void show(int num[], int arraySize)
+                                          void show(int array[], int arraysize)
                                           {
-                                          for (int i = 0; i < arraySize; i++)
-                                                 {
-                                                 cout << a[i] << " ";
-                                                 }
+                                          for (int i = 0; i < arraysize; ++i)
+                                                cout << array[i] << " ";
                                           }
  
-                                         int main()
-                                         {
-                                         int num[10] = { 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
+                                          int main()
+                                          {
+                                          int array[10] = { 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
    
-                                         int arraysize = sizeof(a) / sizeof(a[0]); // size of the array
-                                         cout << "The array before sorting is : \n";
+                                          int ArraySize = sizeof(array) / sizeof(array[0]);// size of the array
+                                          cout << "The array before sorting is : \n";
    
-                                         // print the array
-                                         show(a, arraysize);
+                                          show(array, ArraySize);// print the array
  
-                                         // sort the array
-                                         sort(a, a + arraysize);
+                                          sort(array, array + ArraySize);// sort the array
  
-                                         cout << "\n\nThe array after sorting is :\n";
+                                          cout << "\n\nThe array after sorting is :\n";
    
-                                         // print the array after sorting
-                                         show(a, arraysize);
+                                          show(array, ArraySize);  // print the array after sorting
  
-                                         return 0;
-                                        }
+                                          return 0;
+                                          }
  
