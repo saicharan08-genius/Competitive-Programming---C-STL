@@ -27,6 +27,13 @@ What does Sort function in C++ do? You will understand it in the C++ code below:
                                           
                                           int main()
                                           {
-                                             //code
+                                             int i;
+                                             vector<int> arr1{"5" , "8" , "4" , "2" , "9"};
+                                             cout << "Intial Array.....Not sorted:" << endl;
+                                             for(i = 0 ; i <= arr1.size() ; i++)
+                                             {
+                                                cout << arr1[i] << " ";
+                                             }
+                                             sort(arr1.begin() , arr1.end()); // To sort arr1
                                           }
  
