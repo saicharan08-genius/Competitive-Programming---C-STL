@@ -14,7 +14,19 @@ C++ STL Programming Conisist of:
                                3.Functions
                                4.Iterators
                                
-# C++ Containers:
+# C++ Algorithms:
 
-C++ Vector Library:
+C++ Sorting: 
+
+What does Sort function in C++ do? You will understand it in the C++ code below:
+ 
+                                          #include <iostream>
+                                          #include <bits/stdc++.h>
+                                          
+                                          using namespace std;
+                                          
+                                          int main()
+                                          {
+                                             //code
+                                          }
  
