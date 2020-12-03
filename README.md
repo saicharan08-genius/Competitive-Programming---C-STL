@@ -53,5 +53,7 @@ What does Sort function in C++ do? You will understand it in the C++ code below:
                                           the elements of the array in a ascending 
                                           or descending order*/
 C++ Binary Search:
+         
+Now, What does Binary Search Algorithm work? See this code below to understand it clearly:
 
  
