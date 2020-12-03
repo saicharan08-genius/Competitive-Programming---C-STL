@@ -49,7 +49,9 @@ What does Sort function in C++ do? You will understand it in the C++ code below:
                                           return 0;
                                           }
  
-                                          //So, now, we know sort function sorts the elements of the array in a ascending or descending order
+                                          /*So, now, we know sort function sorts 
+                                          the elements of the array in a ascending 
+                                          or descending order*/
 C++ Binary Search:
 
  
