@@ -56,4 +56,40 @@ C++ Binary Search:
          
 Now, What does Binary Search Algorithm work? See this code below to understand it clearly:
 
- 
+                                          #include <bits/stdc++.h>
+                                          #include <iostream>
+                                          
+                                          using namespace std;
+                                          
+                                          int main()
+                                          {
+                                             int arr1[10] = {5 , 3 , 4 , 1 , 2 , 0 , 8 , 9 , 6 , 7};
+                                             //First let us  sort this array
+                                             sort(arr1 , arr1 + 10);
+                                             //let us see if it is sorted
+                                             int i;
+                                             for(i = 0 ; i < 10 ; i++)
+                                             {
+                                                cout << arr1[i] << " "; //outputs 0 1 2 3 4 5 6 7 8 9
+                                             }
+                                             //Let us check if 5 is in this array
+                                             if(binary_search(arr1 , arr1 + 10 , 5))
+                                             {
+                                                cout << "Great! 5 is there in the list!" << endl;
+                                             }
+                                             else
+                                             {
+                                                cout << "Uh oh....5 is not there in the list" << endl;
+                                             } 
+                                             //outputs Great! 5 is there in the list!
+                                             //Let us see if 11 is there in the list
+                                             if(binary_search(arr1 , arr1 + 10 , 11))
+                                             {
+                                                cout << "Great! 11 is there in the list" << endl;
+                                             }
+                                             else
+                                             {
+                                                cout << "Uh oh....there is no 11 in the list" << endl;
+                                             }
+                                             //outputs Uh oh....there is no 11 in the list
+                                          }
