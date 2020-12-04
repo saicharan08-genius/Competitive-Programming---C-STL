@@ -93,3 +93,5 @@ Now, What does Binary Search Algorithm work? See this code below to understand i
                                              }
                                              //outputs Uh oh....there is no 11 in the list
                                           }
+
+Important C++ Algorithms:
