@@ -100,7 +100,19 @@ Important C++ Algorithms:
 Let us use some important C++ STL Algoruthms by solving some coding problems:
 
 1. Find the Largest number of a vector:
-[code]
-#include <iostream>
-#include <bits/stdc++.h>
-[/code]
+
+                                           #include <iostream>
+                                           #include <bits/stdc++.h>
+                                           
+                                           using namesoace std;
+                                           
+                                           int main()
+                                           {
+                                              vector<int> vecInt;
+                                              vecInt.push_back(1);
+                                              vecInt.push_back(0);
+                                              vecInt.push_back(9);
+                                              vecInt.push_back(5);
+                                              sort(vecInt.begin() , vecInt.end());
+                                              cout << vecInt[3];
+                                           }
