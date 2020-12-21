@@ -116,3 +116,6 @@ Let us use some important C++ STL Algoruthms by solving some coding problems:
                                               sort(vecInt.begin() , vecInt.end());
                                               cout << vecInt[3];
                                            }
+reverse function:
+2) Put each letter of a string in a vector and print the reverse of the string:
+                                                                      #include <iostream>
