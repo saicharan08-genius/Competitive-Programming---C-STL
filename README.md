@@ -6,6 +6,7 @@ C++ STL Programming prerequisites:
     
                                1.Basic Programming in C++(structures, loops, conditions, data types)
                                2.Class Templates and Generic Programming in C++
+                               3.Strong base of Middle School Math
                                
 C++ STL Programming Conisist of:
   
@@ -95,3 +96,8 @@ Now, What does Binary Search Algorithm work? See this code below to understand i
                                           }
 
 Important C++ Algorithms:
+
+Let us use some important C++ STL Algoruthms by solving some coding problems:
+
+1. Find the Largest number of a vector:
+                                          #include 
