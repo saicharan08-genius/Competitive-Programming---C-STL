@@ -104,7 +104,7 @@ Let us use some important C++ STL Algoruthms by solving some coding problems:
                                            #include <iostream>
                                            #include <bits/stdc++.h>
                                            
-                                           using namesoace std;
+                                           using namespace std;
                                            
                                            int main()
                                            {
