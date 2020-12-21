@@ -103,4 +103,4 @@ Let us use some important C++ STL Algoruthms by solving some coding problems:
 [code]
 #include <iostream>
 #include <bits/stdc++.h>
-[code]
+[/code]
