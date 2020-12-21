@@ -1,4 +1,4 @@
-#USACO Bronze - C++ STL 
+# USACO Bronze - C++ STL 
 
 Disclaimer: This is Competitive programming contest related and not software development related
 
@@ -93,6 +93,7 @@ Now, What does Binary Search Algorithm work? See this code below to understand i
                                                 cout << "Uh oh....there is no 11 in the list" << endl;
                                              }
                                              //outputs Uh oh....there is no 11 in the list
+                                            return 0;
                                           }
 
 Important C++ Algorithms:
@@ -115,7 +116,28 @@ Let us use some important C++ STL Algoruthms by solving some coding problems:
                                               vecInt.push_back(5);
                                               sort(vecInt.begin() , vecInt.end());
                                               cout << vecInt[3];
+                                              return 0;
                                            }
-reverse function:
-2) Put each letter of a string in a vector and print the reverse of the string:
-                                                                      #include <iostream>
+2. Put each letter of a string in a vector and print the reverse of the string:
+
+                                                                                 #include <iostream>
+                                                                                 #include <bits/stdc++.h>
+                                                                                 
+                                                                                 using namespace std;
+                                                                                 
+                                                                                 int main()
+                                                                                 {
+                                                                                   string word = "Hello";
+                                                                                   int i;
+                                                                                   vector<char> vec;
+                                                                                   for(i = 0 ; i < word.length() ; i++)
+                                                                                   {
+                                                                                      vec.push_back(word[i]);
+                                                                                   }
+                                                                                   reverse(vec.begin() , vec.end());
+                                                                                   for(i = 0 ; i < word.length() ; i++)
+                                                                                   {
+                                                                                     cout << word[i]
+                                                                                   }
+                                                                                   return 0;
+                                                                                 } 
